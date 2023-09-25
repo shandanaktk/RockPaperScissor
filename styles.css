@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+    }
+    
+    body {
+        margin: 0;
+        min-height: 100vh;
+        /* background-color: #163960; */
+        background-image: url("background.svg");      }
+
+    .header{
+        height: 60px;
+        font-size: 70px;
+        font-family: 'Gaegu', cursive;
+        color: white;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .main
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 50px;
+    }
+
+    .panel1, .panel2{
+        font-family: 'Gaegu', cursive;
+        color: aliceblue;
+        text-align: center;
+        font-size: 40px;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        width: 650px;
+        border-radius: 79px;
+        background: #11304f;
+        box-shadow:  5px -5px 20px #081624,
+             -5px 5px 20px #1a4a7a;
+        padding: 50px;
+    }
+
+    .gallery
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 30px;
+    }
+
+    img{
+        width: 150px;
+        height: auto;
+    }
+
+    p{
+        margin-top: 5px;
+    }
+
+    .item{
+        color:#FAFAFA;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 5px;
+        border-radius: 79px;
+        background: #1e456c;
+        box-shadow:  5px -5px 20px #0e2032,
+                     -5px 5px 20px #2e6aa6;
+    }
+
+    .item:hover {
+        transform: translateY(-20px);
+      }
+
+    .three{
+        padding-top: 35px;
+    }
+
+    .scorecard{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        gap: 00px;
+        color: aliceblue;
+        font-family: 'Gaegu', cursive;
+        font-size: 50px;
+    }
+
+    .my, .computer{
+        margin: 50px;
+        display: flex;
+        flex-direction: row;
+    }
+
+
+    .result{
+        height: 150px;
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-bottom: 100px;
+        color: #0F457B;
+        font-family: 'Gaegu', cursive;
+        font-size: 50px;
+        text-align: center;
+        border-radius: 43px;
+        background: #abb8c4;
+        box-shadow:  5px -5px 20px #4f555a,
+             -5px 5px 20px #ffffff;
+    }
+
+    .refresh {
+
+        font-family: 'Caveat', cursive;
+        font-size: 1.5rem;
+        color: whitesmoke;
+        text-transform: uppercase;
+        padding: 10px 20px;
+        border-radius: 10px;
+        border: 2px solid #FAFAFA;
+        background: #0F457B;
+        box-shadow: 3px 3px #fafafa;
+        cursor: pointer;
+        margin: 35px 0;
+        margin-left: 550px;
+        width: 300px;
+        text-align: center;
+    }

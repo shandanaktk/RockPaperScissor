@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Rock Paper Scissors Game</title>
+        <link rel="stylesheet" href="styles.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Anton&family=Caveat:wght@600&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Gaegu:wght@700&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+       <div class="header">Rock Paper Scissors</div>
+
+       <div class="main">
+
+        <div class="panel1">  
+            <div class="heading">Choose your warrior</div>
+
+            <div class="gallery">
+                <div class="item scissor" data-button="scissor">
+                    <img src="s.png">
+                    <p>Scissors</p>
+                </div>
+
+                <div class="item paper" data-button="paper">
+                    <img src="p.png">
+                    <p>Paper</p>
+                </div>
+
+                <div class="item three rock" data-button="rock">
+                    <img src="r.png">
+                    <p>Rock</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="panel2">
+            <div class="heading">Computer's warrior</div>
+
+            <div class="gallery">
+                <div class="item computer-scissor">
+                    <img src="s.png">
+                    <p>Scissors</p>
+                </div>
+
+                <div class="item computer-paper">
+                    <img src="p.png">
+                    <p>Paper</p>
+                </div>
+
+                <div class="item three computer-rock">
+                    <img src="r.png">
+                    <p>Rock</p>
+                </div>
+            </div>
+        </div>
+
+       </div>
+
+       <div class="scorecard">
+            <div class="my">
+                <div class="um">Your Score:</div> 
+                <div class="user-score">0</div>
+            </div>
+
+            <div class="computer">
+                <div class="um">Computer's Score:</div> 
+                <div class="computer-score">0</div>
+            </div>
+        </div>
+
+       <div class="result"></div>
+
+       <script src="java.js"></script>
+    </body>
+</html>
